@@ -4,7 +4,7 @@ v0.1
 by wak hehe jek
 @node.js indonesia
 */
-var app = require('http').createServer()
+var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app)
   , fs = require('fs')
  
