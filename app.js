@@ -8,9 +8,9 @@ var app = require('http').createServer()
   , io = require('socket.io').listen(app)
   , fs = require('fs')
  
-app.listen(8888);
+app.listen(5000);
  
-/*function handler (req, res) {
+function handler (req, res) {
   fs.readFile(__dirname + '/index.html',
   function (err, data) {
     if (err) {
@@ -21,7 +21,7 @@ app.listen(8888);
     res.writeHead(200);
     res.end(data);
   });
-}*/
+}
 var usernames = {};
  
 io.sockets.on('connection', function (socket) {
