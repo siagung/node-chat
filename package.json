@@ -10,6 +10,10 @@
     "chat",
     "purpose"
   ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/siagung/node-chat.git"
+    },
   "author": "agung susanto",
   "license": "MIT"
 }
